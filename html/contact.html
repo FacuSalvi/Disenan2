@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <title>Diseñan2 / Contactanos!</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="Styles.css">
+        <script src="https://kit.fontawesome.com/19207e8669.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="body-contact">
+            <header>
+                <nav id="header">
+                    <a href="index.html" id="logo">Diseñan2</a>
+                    <nav id="nav">
+                        <buttton id="menu-hamb" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                            <span id="hamb"></span>
+                        </buttton>
+                        <ul id="menu" role="menu">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="portafolio.html">Portafolio</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
+                        </ul>
+                        <script src="index.js"></script>
+                    </nav>     
+                </nav>
+            </header>
+            
+            <main>
+                <div class="tittle-contact">
+                    <h1>Contactanos!</h1>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-item">
+                        <div class="container form-container">
+                            <div class="contact-message">
+                                <p>Enviar un mensaje</p>
+                            </div>
+                            <form id="form" action="" onsubmit="return contactForm();">
+                                <div class="form-control">
+                                    <div id="error_message"></div>
+                                    <input type="text" id="name" placeholder="Ingrese su Nombre">
+                                </div>
+                                <div class="form-control">
+                                    <input type="text" id="email" placeholder="Ingrese su Email">
+                                </div>
+                                <div class="form-control">
+                                    <textarea id="message" placeholder="Dejanos tu mensaje..." rows="5" name="message"></textarea>
+                                </div>
+                                <div class="form-control">
+                                    <button type="submit" id="contact">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="map-container">
+                            <div class="footer-contacto">
+                                <div class="mail">
+                                    <i class="fa-regular fa-envelope-open"></i>
+                                    <p>Mail: diseñan2@gmail.com</p>
+                                </div>
+                                <div class="cel">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>Celular: 1512345678</p>
+                                </div>
+                                <div class="location"><p>Ubicación:</p></div>
+                            </div>
+                            <div><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.9787522854976!2d-58.386596305501214!3d-34.71834003441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd47f95979a3%3A0x6c500acd7f5b31f7!2sEstadio%20Nestor%20Diaz%20Perez!5e0!3m2!1ses!2sar!4v1653951203234!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <footer>
+                <div class="footer">
+                    <div class="redes">
+                        <div><a href="index.html"><p class="footer-logo"><b>Diseñan2</b></p></a></div>
+                        <ul>
+                            <li><a href="https://www.instagram.com/disenian2/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.instagram.com/disenian2/"><i class="fa-brands fa-facebook-square"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contacto">
+                        <div class="footer-h5"><h5>Contacto</h5></div>
+                        <div class="mail">
+                            <i class="fa-regular fa-envelope-open"></i>
+                            <p>Mail: diseñan2@gmail.com</p>
+                        </div>
+                        <div class="cel">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>Celular: 1512345678</p>
+                        </div>
+                    </div>
+                    <div class="linea"></div>
+                    <div class="copyright">
+                        <p>© Copyright 2022 DISEÑAN2</p>
+                    </div>
+                    <div class="firma">
+                        <p>Website concept by Facundo Salvi</p>
+                    </div>
+                </div>
+            </footer>
+      </nav>
+    </body>
